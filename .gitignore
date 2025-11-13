@@ -1,0 +1,31 @@
+# ---- Python 기본 ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# venv / 가상환경
+venv/
+.envrc/
+.env.bak
+
+# Jupyter 등
+.ipynb_checkpoints/
+
+# 로그 / 캐시
+*.log
+*.tmp
+
+# 프로젝트 민감 정보 / 러닝타임 파일
+.env
+state.json
+trades.csv
+upbit_auto_trader.log
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+
+# VS Code 설정(원하면 포함)
+.vscode/
